@@ -42,9 +42,9 @@ http_archive(
         "@//third_party:mediapipe_model_path.diff",
         "@//third_party:mediapipe_extension.diff",
     ],
-    sha256 = "4433c986671fea71288f8e573e2395a8e877bf782278997974a01cb4c9d6e362",
+    sha256 = "005a6b1d2e975eec6630f6adeb0f29b0dd2d6e9d34957563ffeba2e321ae24d7",
     strip_prefix = "mediapipe-0.10.1",
-    urls = ["https://github.com/google/mediapipe/archive/v0.10.1.tar.gz"],
+    urls = ["https://github.com/emmasteimann/testmediapipe/releases/download/0.10.1/0.10.1.tgz"],
 )
 
 # ABSL cpp library lts_2023_01_25.
