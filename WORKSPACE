@@ -43,7 +43,7 @@ http_archive(
         "@//third_party:mediapipe_extension.diff",
     ],
     sha256 = "2e530fbe886baaf2a45323751de9a55a5cac7a3e7f8fd36ea4779f09b88c6af0",
-    strip_prefix = "mediapipe-0.10.1",
+    strip_prefix = "mediapipe-0.9.1",
     urls = ["https://github.com/newnon/mediapipe/archive/refs/tags/v0.9.1.tar.gz"],
 )
 
