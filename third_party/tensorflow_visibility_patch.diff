@@ -1,0 +1,36 @@
+diff --git a/tensorflow/lite/core/shims/BUILD b/tensorflow/lite/core/shims/BUILD
+--- a/tensorflow/lite/core/shims/BUILD
++++ b/tensorflow/lite/core/shims/BUILD
+@@ -89,9 +89,7 @@
+     hdrs = FRAMEWORK_STABLE_LIB_HDRS + CC_API_HDRS,
+     copts = tflite_copts() + tflite_copts_warnings(),
+     visibility = [
+-        "//tensorflow/lite:__subpackages__",
+-        "@mediapipe//mediapipe:__subpackages__",
+-        "@org_tensorflow_lite_support//tensorflow_lite_support:__subpackages__",
++        "//visibility:public"
+     ],
+     deps = [
+         "//tensorflow/lite:allocation",
+@@ -237,9 +235,7 @@
+     ],
+     generate_opaque_delegate_target = True,
+     visibility = [
+-        "//tensorflow/lite:__subpackages__",
+-        "@mediapipe//mediapipe:__subpackages__",
+-        "@org_tensorflow_lite_support//tensorflow_lite_support:__subpackages__",
++        "//visibility:public"
+     ],
+     deps = [
+         ":builtin_ops_list",
+@@ -405,9 +401,7 @@
+     copts = tflite_copts_warnings(),
+     generate_opaque_delegate_target = True,
+     visibility = [
+-        "//tensorflow/lite:__subpackages__",
+-        "@mediapipe//mediapipe:__subpackages__",
+-        "@org_tensorflow_lite_support//tensorflow_lite_support:__subpackages__",
++        "//visibility:public",
+     ],
+     deps = ["//tensorflow/lite/core/c:c_api_types"],
+ )
