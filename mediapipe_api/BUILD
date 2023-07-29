@@ -476,6 +476,7 @@ filegroup(
     srcs = [
         "@com_google_mediapipe//mediapipe/modules/face_detection:face_detection_short_range.tflite",
         "@com_google_mediapipe//mediapipe/modules/face_landmark:face_landmark.tflite",
+        "@com_google_mediapipe//mediapipe/modules/face_landmark:face_blendshapes.tflite",
         "@com_google_mediapipe//mediapipe/modules/face_landmark:face_landmark_with_attention.tflite",
     ],
 )
